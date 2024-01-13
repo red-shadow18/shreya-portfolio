@@ -39,6 +39,15 @@ const Container = styled.div`
 }
 
 display: flex;
+
+.picAndLinks {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media (min-width:1240px){
+        width: 40%;
+    }
+}
     img {
         height: 250px;
         width:250px;
@@ -51,9 +60,8 @@ display: flex;
         display:flex;
         gap:10px;
         width: 270px;
-        @media (max-width:1240px){
     flex-direction: column;
-}
+
         span {
             display:flex;
             gap:10px;

@@ -21,6 +21,7 @@ const Container=styled.div`
 
     .allArticles {
          display: flex;
+             justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
     }
