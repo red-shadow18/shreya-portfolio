@@ -2,6 +2,7 @@ import ARTICLE1 from "./assets/ARTICLE1.png"
 import ARTICLE2 from "./assets/ARTICLE2.jpeg"
 import Rula from "./assets/Rula.png"
 import Act from "./assets/Act.png"
+import HyperLocal from "./assets/HyperLocal.png"
 
 const paths = [
     { to: "/", linkText: "HOME" },
@@ -31,8 +32,9 @@ const caseStudies = [
     },
     {
         id: 3,
-        title: "",
-        question: "", prd: "", presentation: "", icon: ""
+        title: "Hyper Local",
+        question: "As a Product Manager for an Indian streaming service targeting Tier-2 and Tier-3 markets, the task is to develop a high-retention model. This entails defining user activation metrics, creating incentives for content creators, addressing distribution challenges, ensuring creator retention and ROI, and selecting Net Promoter Score (NPS) as the primary success metric.",
+        prd: "https://docs.google.com/document/d/1_7axkzizLFHihL-KfXPgna0bFxS8FDyc/edit?usp=sharing&ouid=117707791781182360955&rtpof=true&sd=true", presentation: "https://docs.google.com/presentation/d/1yRCDbKCfFdH4uxh1WNLgme6ASgnq5NsO/edit?usp=sharing&ouid=117707791781182360955&rtpof=true&sd=true", icon: HyperLocal
     },
     {
         id: 4,

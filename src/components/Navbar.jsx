@@ -25,15 +25,12 @@ right:0;
     display: flex;
     padding: 10px;
     gap: 20px;
+    padding-right: 20px;
     justify-content: flex-end;
 backdrop-filter: blur(5px);
 .navigationLink {
     font-weight: 800;
     text-decoration:none;
-  
-    /* &:active{
-     color:#8e13db;
-} */
 }
 
 .active{
@@ -41,15 +38,4 @@ backdrop-filter: blur(5px);
      text-decoration: underline;
 }
 
-.signIn {
-    background-color:#fcdea2;
-    padding: 0.6rem 1rem;
-    border-radius: 0.5rem;
-}
-
-button {
-    background: transparent;
-    border: none;
-    margin-right: -1rem;
-}
 `
