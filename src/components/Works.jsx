@@ -4,7 +4,7 @@ import ComingSoon from "../assets/comingSoon.jpg"
 
 const Works = () => {
     return <Container>
-        <img src={ComingSoon}/>
+        <img loading="lazy" src={ComingSoon}/>
     </Container>
 }
 
