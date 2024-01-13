@@ -14,10 +14,10 @@ const CaseStudiesCard = ({props}) => {
     }
     return <Container>
         <span className="title">{title}</span>
-        <img loading="lazy" src={icon} />
+        <img loading="lazy" src={icon} alt={title} />
         <span id="question" className="dp-flx"><PsychologyAltIcon />: <span className="question">{question}</span></span>
-        <span className="linkText"><EmojiObjectsIcon/>: <a id="prd" href={prd} target="_blank">{articleLink(prd)}</a></span>
-       <span className="linkText"><CoPresentIcon/>: <a id="presentation" href={presentation} target="_blank">{articleLink(presentation)}</a></span>
+        {prd && <span className="linkText"><EmojiObjectsIcon/>: <a id="prd" href={prd} target="_blank">{articleLink(prd)}</a></span>}
+       {presentation && <span className="linkText"><CoPresentIcon/>: <a id="presentation" href={presentation} target="_blank">{articleLink(presentation)}</a></span>}
     </Container>
 }
 

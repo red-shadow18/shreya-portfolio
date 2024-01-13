@@ -11,7 +11,7 @@ const ArticleCard = ({props}) => {
     }
     return <Container>
         <span className="title">{title}</span>
-        <img loading="lazy" src={imgSrc} />
+        <img loading="lazy" alt={title} src={imgSrc} />
        <a href={link} target="_blank"><span className="linkText"><LinkedInIcon/>: {articleLink()}</span></a>
     </Container>
 }
