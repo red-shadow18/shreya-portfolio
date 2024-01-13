@@ -4,7 +4,7 @@ import LandingPage from './components/LandingPage';
 import Navbar from './components/Navbar';
 import Articles from './components/Articles';
 import CaseStudies from './components/CaseStudies';
-import Works from './components/Works';
+import Work from './components/Work';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
             <Route path="/" element={<LandingPage />} />
             <Route path="/caseStudies" element={<CaseStudies />} />
             <Route path="/articles" element={<Articles />} />
-            <Route path="/works" element={<Works />} />
+            <Route path="/work" element={<Work />} />
             {/* <Route path="*" element={<WrongURL currentTheme={themeDataFinder()} />} /> */}
           </Routes>
         </div>

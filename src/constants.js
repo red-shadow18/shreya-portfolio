@@ -11,7 +11,7 @@ const paths = [
     { to: "/", linkText: "HOME" },
     { to: "/caseStudies", linkText: "CASE STUDIES" },
     { to: "/articles", linkText: "ARTICLES" },
-    { to: "/works", linkText: "WORKS" },
+    { to: "/work", linkText: "WORK" },
 ]
 
 const articles = [
